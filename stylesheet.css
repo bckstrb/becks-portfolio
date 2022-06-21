@@ -11,15 +11,25 @@ body {
 }
 
 /*navigation bar starts here*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 header {
-  background-color: rgb(92, 1, 54);
-  width: 100%;
-  text-align: left;
-  padding: 2.5%;
+    background-color: rgb(92, 1, 54);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .name {
     color: antiquewhite;
+    float: left;
+    padding: 10px 0;
 }
 
 nav {
@@ -29,12 +39,15 @@ nav {
 }
 
 nav ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-left: 75px;
+nav li {
+    display:inline-block;
+    margin-left: 60px;
+    padding-top: 5px;
 }
 
 nav a {
