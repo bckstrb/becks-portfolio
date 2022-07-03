@@ -8,7 +8,7 @@ body {
     color: antiquewhite
 }
 
-/*navigation bar starts here*/
+navigation bar starts here
 .container {
     width: 80%;
     margin: 0 auto;
@@ -16,9 +16,12 @@ body {
   
   header {
       background-color: rgb(92, 1, 54);
+      padding: 30px;
+      text-align: left;
   }
+
   
-  header::after {
+  /*header::after {
       content: '';
       display: table;
       clear: both;
@@ -55,33 +58,46 @@ body {
   
   nav a:hover {
       color: rgb(7, 45, 27);
-  }
+  }*/
 
-  main {
+  /*nav {
     display: flex;
+    background-color:rgb(92, 1, 54)
   }
 
-  aside {
-    flex: 30%;
-    padding: 20px;
-    text-align: center;
+  nav a {
+    color: antiquewhite
+    padding: 14px 20px;
+    text-decoration: none;
+    text-aligh: center;
+  }
+
+  /*main {
+    display: flex;
     flex-wrap: wrap;
   }
 
-  aside h2 {
-
-  }
-
-  #pro-pic {
-    height: 400px;
-    width: 300px:
+  aside {
+    flex: 1;
+    padding: 20px;
   }
 
   section {
-    flex: 70%;
-  }
-
-  .images {
-    /*width: 100%;*/
+    flex: 3;
     padding: 20px;
   }
+
+   .images {
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+  }
+
+  footer {
+    padding: 20%;
+    display: block;
+    background-color: orangered;
+  }*/
+
+ 
+  
