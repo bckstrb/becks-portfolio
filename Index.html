@@ -3,47 +3,68 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./stylesheet2.css">
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
     <title>beck straub</title>
 </head>
 
 <body>
-    <header>
-        <h1>beck straub</h1>
-    </header>
+    <!--title of the portfolio page-->    
+    <header>beck straub</header>
 
+    <!--navigation bar-->
     <nav>
-        <a href="#">about me</a>
-        <a href="#">portfolio</a>
-        <a href="#">contact</a>
+        <ul>
+            <li class = "nav">about me</a></li>
+            <li class = "nav">portfolio</a></li>
+            <li class = "nav">contact</a></li>
+        </ul>
     </nav>
 
-    <main>
-        <aside>
-            <h2>about me</h2>
-            <div id="pro-pic" class="images"><img src="./Profile pic.jpg" alt="Placeholder Image"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum totam omnis iure beatae illo modi vel dolores voluptatibus reprehenderit laborum praesentium consequuntur necessitatibus ut, magni aperiam! Ipsa, quia ipsam.</p>
-        </aside>
+<main>
+    <!--about me section-->
+    <aside>
+        <img src="./extras/Profile pic.jpg" alt="placeholder image" class="profile-picture"/> 
+        <h1>about me</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero consequatur recusandae, repudiandae harum dolore praesentium nostrum aliquam quam blanditiis quod, distinctio corrupti! Nam dignissimos, praesentium illum doloremque rem vel assumenda.</p>
+    </aside>
 
-        <section>
-            <h2>portfolio</h2>
-            <div id="port" class="images"><img src="./istockphoto-1147544807-612x612.jpg" alt="Placeholder Image"></div>
-            <br />
-            <div id="port" class="images"><img src="./istockphoto-1147544807-612x612.jpg" alt="Placeholder Image"></div>
-            <br />
-            <div id="port" class="images"><img src="./istockphoto-1147544807-612x612.jpg" alt="Placeholder Image"></div>
-            <br />
-        </section>
+    <!--portfolio section-->
+    <div class="portfolio">
+      <section class="card">
+        <h2>horiseon</h2>
+        <a href="https://bckstrb.github.io/horiseon_refactoring-/#search-engine-optimization " target="_blank">
+        <img src="./extras/hor.png" alt="placeholder image"/>
+        </a>
+      </section>
+      <section class="card">
+        <h2>password generator</h2>
+        <a href="https://bckstrb.github.io/password-generator-js/" target="_blank">
+        <img src="./extras/password.png" alt="placeholder image"/>
+        </a>
+      </section>
+      <section class="card">
+        <h2>coding quiz</h2>
+        <a href="https://bckstrb.github.io/coding-quiz-challenge/" target="_blank">
+        <img src="./extras/codingquiz.png" alt="placeholder image"/>
+        </a>
+      </section>
+      <section class="card">
+        <h2>daily planner</h2>
+        <a href="https://bckstrb.github.io/daily-planner/" target="_blank">
+        <img src="./extras/scheduler.png" alt="placeholder image"/>
+        </a>
+      </section>
+    </div>
+</main>
 
-        <footer>
-            <h2>contact me</h2>
-            <ul>
-                <li>email</li>
-                <li>github</li>
-                <li>phone</li>
-                <li>resume</li>
-            </ul>
-        </footer>
-    </main>
+  <!--contact me section -->
+  <footer>
+    <h3>contact me</h3>
+    <ul>
+        <li><a href="mailto:rbccstrb@gmail.com">email</a></li>
+        <li><a href="https://github.com/bckstrb" target="_blank">github</a></li>
+        <li><a href="file:///C:/Users/rbccs/Desktop/Job%20Stuff/latest_resume.pdf" target="_blank">resume</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
